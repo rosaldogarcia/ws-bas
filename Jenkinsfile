@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Example') { 
             steps {
-                sh 'echo hello world'
-//                helloWorldExternal(dayOfWeek:"Thursday", name:"Ross")
+//                sh 'echo hello world'
+                helloWorldExternal(dayOfWeek:"Thursday", name:"Ross")
             }
         }
     }
