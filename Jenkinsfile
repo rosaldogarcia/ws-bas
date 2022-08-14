@@ -13,5 +13,5 @@ pipeline {
 } */
 
 @Library("shared-library") _
-log.info 'Starting'
-log.warning 'Nothing to do!'
+log.js 'true'
+log.converters 'true'
