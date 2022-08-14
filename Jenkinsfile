@@ -5,7 +5,7 @@ pipeline {
         stage('Example') { 
             steps {
 //                sh 'echo hello world'
-                helloWorldExternal(dayOfWeek:"Thursday", name:"Ross")
+                helloWorldExternal(rossjs:"True", rosconverters:"True", others:"True")
             }
         }
     }
