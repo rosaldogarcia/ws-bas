@@ -14,4 +14,4 @@ pipeline {
 
 @Library("shared-library") _
 log.js 'true'
-log.converters 'true'
+log.converters 'false'
